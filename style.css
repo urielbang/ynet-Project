@@ -1,0 +1,381 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+svg {
+  width: 2vh;
+  height: 2vh;
+  position: absolute;
+  left: 30%;
+  bottom: 86%;
+  padding-top: 10%;
+}
+.header {
+  width: 100vh;
+  height: 30vh;
+}
+.main {
+  width: 100vh;
+  height: 50vh;
+  text-align: center;
+}
+.footer {
+  width: 100vh;
+  height: 20vh;
+  text-align: center;
+}
+
+.headerfirst {
+  width: 70%;
+  height: 70%;
+}
+.connection {
+  padding-top: 10%;
+  padding-left: 20%;
+  position: absolute;
+  left: 5.5%;
+  bottom: 85.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.sideReklame {
+  margin: 5%;
+  width: 250px;
+  height: 30px;
+  border: solid black;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+}
+.sideReklame img {
+  width: 40%;
+  height: 100%;
+}
+.sideReklame p {
+  position: absolute;
+  left: 2px;
+  top: -8px;
+}
+.iconYnet {
+  position: absolute;
+  left: 45%;
+  top: 4%;
+}
+.iconYnet img {
+  width: 25vh;
+  height: 10vh;
+}
+#Weather {
+  position: absolute;
+  border: 0;
+  right: 25%;
+  top: 7%;
+
+  margin-top: 2%;
+}
+label {
+  position: absolute;
+  right: 23%;
+  margin-top: 4.8%;
+}
+.iconNegishut {
+  width: 5%;
+  height: 10%;
+  position: absolute;
+  right: 96%;
+  top: 10%;
+}
+.iconNegishut:hover {
+  box-shadow: 5px 10px #88888826;
+}
+.iconParpar {
+  width: max-content;
+  height: 8%;
+  position: absolute;
+  right: 96.5%;
+  background-color: rgb(33, 182, 212);
+  top: 24%;
+}
+.iconParpar:hover {
+  box-shadow: 5px 10px #88888826;
+}
+.mailIcon {
+  position: absolute;
+
+  right: 16%;
+  bottom: 86.8%;
+}
+.txtMail {
+  position: absolute;
+  top: 11%;
+  right: 17%;
+}
+.bellIcon {
+  position: absolute;
+
+  padding: 0;
+  right: 11%;
+  top: 11.2%;
+}
+.txtMivzak {
+  position: absolute;
+  right: 12%;
+  top: 11%;
+}
+.headerNav {
+  width: 170%;
+  height: 8%;
+  position: relative;
+
+  right: 21%;
+  background-color: red;
+  margin-top: 5%;
+}
+.headerNav ul {
+  list-style: none;
+}
+.headerNav li {
+  color: white;
+  display: inline-block;
+  padding-top: 0.5%;
+  padding-left: 2.5%;
+}
+.headerNav a {
+  text-decoration: none;
+  color: white;
+}
+.headerNav svg {
+  position: absolute;
+  left: 7.5%;
+  bottom: 5px;
+}
+.headerNav select {
+  border: 0;
+  background-color: red;
+  color: white;
+}
+.headerNav li:hover {
+  font-weight: bold;
+}
+.headerNav select:hover {
+  font-weight: bold;
+}
+.mainMivzakim {
+  background-color: rgba(128, 128, 128, 0.062);
+  height: 35%;
+  width: 170%;
+  position: relative;
+  right: 21%;
+}
+.mainMivzakim ul {
+  list-style: none;
+  display: flex;
+}
+.mainMivzakim li {
+  display: inline-block;
+}
+.mainMivzakim a {
+  text-decoration: none;
+  text-align: right;
+  color: black;
+}
+.iconArrow {
+  padding: 10%;
+  color: red;
+}
+.txtLekol {
+  padding: 5px;
+  color: red;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+}
+.txtMivzakim {
+  padding-left: 45px;
+  color: red;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+}
+.mainMivzakim img {
+  position: relative;
+  top: 11px;
+  left: 35px;
+}
+.mostImportantMain {
+  width: 170%;
+  height: 80%;
+
+  position: relative;
+  right: 21%;
+}
+.date {
+  position: absolute;
+  right: 0;
+}
+.dateHivri {
+  position: absolute;
+  right: 5%;
+}
+.mostImportanTxt {
+  width: 45%;
+  text-align: justify;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.secondTxt {
+  text-align: justify;
+  position: absolute;
+  width: 45%;
+  bottom: 0;
+}
+.mostImportantMain img {
+  width: 50%;
+
+  float: left;
+}
+.mainReklame {
+  width: 80%;
+
+  height: 220%;
+
+  position: relative;
+  right: 21%;
+  top: 19%;
+}
+.advertisingBig {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+.advertisingSmallA {
+  height: 44%;
+  width: 46%;
+  position: absolute;
+  left: 0;
+}
+.advertisingSmallB {
+  height: 44%;
+  width: 45%;
+  position: absolute;
+  right: 55%;
+  top: 55%;
+}
+.mainInfoWithFoto {
+  width: 42%;
+  height: 50%;
+  display: grid;
+  grid-gap: 20px 50px;
+
+  position: absolute;
+  left: 6%;
+  top: 110.5%;
+}
+.mainInfoWithFoto img {
+  float: right;
+  text-align: justify;
+}
+.mainInfoWithFoto p {
+  text-align: justify;
+}
+.div1 {
+  background-color: red;
+  color: white;
+  width: 100%;
+  text-align: right;
+  height: 100%;
+}
+.div2 {
+  background-color: rgb(8, 8, 154);
+  color: white;
+  text-align: right;
+}
+.div3 {
+  background-color: red;
+  color: white;
+  text-align: right;
+}
+.div4 {
+  color: white;
+  background-color: rgb(6, 6, 70);
+  text-align: right;
+}
+.InfoHot1 {
+  width: 83vh;
+  height: 40vh;
+  margin-top: 11%;
+
+  position: relative;
+  right: 18%;
+}
+.InfoHot2 {
+  width: 85vh;
+  height: 40vh;
+  position: absolute;
+  top: 225%;
+  left: 6%;
+}
+.headerHot1 {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(4, 4, 104);
+}
+.headerHot1 p {
+  text-align: right;
+  padding-right: 5%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: -3%;
+}
+.headerHot2 {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(4, 4, 104);
+  position: relative;
+  bottom: 7%;
+}
+.headerHot2 p {
+  text-align: right;
+  padding-right: 5%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: 17%;
+}
+.hotImages1 {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  margin-top: 3.5%;
+}
+.hotImages2 {
+  height: 80%;
+  display: flex;
+  width: 100%;
+}
+.hotImages1 img {
+  width: 96%;
+  height: 75%;
+}
+.hotImages2 img {
+  width: 96%;
+  height: 75%;
+}
+.hotImages1 p {
+  text-align: right;
+  font-weight: bold;
+  margin-left: 2%;
+  font-size: 17px;
+}
+.hotImages2 p {
+  text-align: right;
+  font-weight: bold;
+  margin-left: 2%;
+  font-size: 17px;
+}
