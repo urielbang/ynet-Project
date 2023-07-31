@@ -14,15 +14,18 @@ svg {
 .header {
   width: 100vh;
   height: 30vh;
+  display: flex;
 }
 .main {
   width: 100vh;
+
   height: 50vh;
   text-align: center;
 }
 .footer {
   width: 100vh;
   height: 20vh;
+
   text-align: center;
 }
 
@@ -136,10 +139,11 @@ label {
 }
 .headerNav ul {
   list-style: none;
+  display: flex;
 }
 .headerNav li {
   color: white;
-  display: inline-block;
+
   padding-top: 0.5%;
   padding-left: 2.5%;
 }
@@ -174,9 +178,7 @@ label {
   list-style: none;
   display: flex;
 }
-.mainMivzakim li {
-  display: inline-block;
-}
+
 .mainMivzakim a {
   text-decoration: none;
   text-align: right;
