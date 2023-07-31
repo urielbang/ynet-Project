@@ -127,9 +127,10 @@ label {
 .headerNav {
   width: 170%;
   height: 8%;
-  position: relative;
-
-  right: 21%;
+  position: sticky;
+  top: 0;
+  margin-right: 21%;
+  z-index: 100;
   background-color: #b4010b;
   margin-top: 5%;
 }
